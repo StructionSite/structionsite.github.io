@@ -1,0 +1,17 @@
+title = "structionsite.tech"
+base_url = "https://sts-tech-blog.netlify.app/"
+compile_sass = false
+build_search_index = false
+
+taxonomies = [
+    {name = "tags"}, 
+    {name = "authors"}, 
+]
+
+[markdown]
+highlight_code = true
+highlight_theme = "one-dark"
+
+
+[extra]
+favicon = "static/favicon.png"

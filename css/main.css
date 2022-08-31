@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Syntax highlighting styles */
+pre {
+  padding: 1rem;
+  overflow: auto;
+  font-family: "dmmono";
+  /*@apply text-sm -mx-16 my-8 ;*/
+  @apply text-sm my-8 ;
+}
+pre[data-linenos] {
+  padding: 1rem 0;
+}
+pre table td {
+  padding: 0;
+}
+pre table td:nth-of-type(1) {
+  text-align: center;
+  user-select: none;
+}
+pre mark {
+  display: block;
+  background-color: rgba(254, 252, 232, 0.9);
+}
+pre table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Font */
+@font-face {
+    font-family: "paralucent";
+    src: url("/fonts/Device-ParalucentMedium.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "paralucent";
+    font-weight: 700;
+    src: url("/fonts/Device-ParalucentBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "dmsans";
+    src: url("/fonts/DMSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "dmsans";
+    font-weight: 700;
+    src: url("/fonts/DMSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "dmmono";
+    src: url("/fonts/DMMono-Regular.ttf") format("truetype");
+}
+
+h1 { @apply text-4xl mt-8 mb-2; }
+h2 { @apply text-3xl mt-6 mb-2; }
+h3 { @apply text-2xl mt-5 mb-2; }
+h4 { @apply text-xl mt-3 mb-2; }
+h5 { @apply text-lg my-2; }
+
+h1, h2, h3, h4, h5, h6 { font-family: "paralucent", sans-serif }
+
+body { 
+    font-family: "dmsans", sans-serif
+}
+
+/* inline code styles */
+.markdown-content p code { 
+    @apply text-sm px-1 py-px text-tertiary-light bg-tertiary-dark bg-opacity-20 ;
+}
+
+.markdown-content { 
+    @apply mt-8;
+}
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+    @apply text-secondary-light;
+}
+
+.markdown-content ol,
+.markdown-content ul { 
+    @apply p-4 ;
+}
+.markdown-content ul li { 
+    @apply list-disc;
+}
+.markdown-content ol li { 
+    @apply list-decimal;
+}
+.markdown-content li { 
+    @apply text-xl;
+}
+.markdown-content p { 
+    @apply text-xl mb-4;
+}
+
+.markdown-content a { 
+    @apply underline text-primary-light;
+}
+
