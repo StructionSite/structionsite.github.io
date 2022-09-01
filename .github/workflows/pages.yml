@@ -44,16 +44,13 @@ jobs:
         id: pages
         uses: actions/configure-pages@v2
         
-      - run: npm ci
-      - run: npm run build
+      - run: npm ci && npm run build && ls -laht
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
       
-      - name: Debug path
-        run: ls -laht
 
   deploy:
     environment:
