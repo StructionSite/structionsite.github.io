@@ -51,6 +51,9 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./public
+      
+      - name: Debug path
+        run: ls -laht
 
   deploy:
     environment:
