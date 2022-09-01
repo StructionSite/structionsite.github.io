@@ -18,7 +18,7 @@ struct Ionsite {
 
 You can do line numbers and highlights like this
 
-```rust,linenos,hl_lines=2-4,7
+```rust,linenos,hl_lines=2-4 7
 impl Ionsite { 
     fn blog() -> String { 
         "hey".into()
