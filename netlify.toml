@@ -1,8 +1,0 @@
-[build]
-publish = "public"
-command = "yarn build"
-
-[build.environment]
-
-[context.deploy-preview]
-command = "yarn build:preview"
