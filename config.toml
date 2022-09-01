@@ -1,5 +1,5 @@
-title = "structionsite.tech"
-base_url = "https://sts-tech-blog.netlify.app/"
+title = "tech.structionsite"
+base_url = "https://tech.structionsite.com/"
 compile_sass = false
 build_search_index = false
 
