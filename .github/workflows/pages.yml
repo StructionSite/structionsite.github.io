@@ -44,7 +44,8 @@ jobs:
         id: pages
         uses: actions/configure-pages@v2
         
-      - run: npm ci && npm run build && ls -laht
+      - run: npm ci && npm run build 
+      - run: ls -laht
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
