@@ -1,16 +1,16 @@
 ---
 title: Using a shared future to wait on a remote resource from multiple tasks in Rust
 date: 2020-09-01
-draft: true
+draft: false
 slug: using-a-shared-future-to-wait-on-a-remote-resource-from-multiple-tasks
-taxonomies: 
+taxonomies:
   tags: [rust, web]
   authors: [Dan Bruder]
 ---
 
 This example shows how to wait on a single future from multiple tasks at the same time using [Shared future](https://docs.rs/futures/0.3.5/futures/future/struct.Shared.html).
 
-In this example, a client makes multiple concurrent requests to a server. The server then makes a single request to a remote resource on behalf of the client and resolves each of the client's requests with the single value returned from the remote resource. 
+In this example, a client makes multiple concurrent requests to a server. The server then makes a single request to a remote resource on behalf of the client and resolves each of the client's requests with the single value returned from the remote resource.
 
 Check out the code here: [https://github.com/danbruder/shared-future-example](https://github.com/danbruder/shared-future-example)
 
