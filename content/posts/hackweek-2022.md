@@ -54,3 +54,14 @@ taxonomies:
 - Reflections
   - Overall it was a success!
   - Cadence for doing this probably best to be once per year
+
+# TLDR section
+
+# Goals
+
+- Engineering is a creative endeavor. It's important to be intentional about fostering creativity in our rhythms as a team.
+- We already have a backlog of important, interesting challenges to solve, so what is the hackweek for? Engineering driven projects.
+
+## Benchmarking
+
+Before setting out to run a hackweek (not only a first for me but a first for StructionSite), I wanted to get some feedback on how to run a successful one. After reading blog posts on the topic (linked at the bottom), I reached out to a few leadership communities on Slack.
