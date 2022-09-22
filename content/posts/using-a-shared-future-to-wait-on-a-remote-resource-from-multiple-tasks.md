@@ -1,7 +1,7 @@
 ---
 title: Using a shared future to wait on a remote resource from multiple tasks in Rust
 date: 2020-09-01
-draft: false
+draft: true
 slug: using-a-shared-future-to-wait-on-a-remote-resource-from-multiple-tasks
 taxonomies:
   tags: [rust, web]
