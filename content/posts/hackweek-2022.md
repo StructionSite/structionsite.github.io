@@ -8,60 +8,38 @@ taxonomies:
   authors: [Dan Bruder]
 ---
 
-# Outline
+This year we had our first hackathon at StructionSite which we called Hackweek. It was a week-long event where folks from the engineering team paused the normal roadmap and worked on projects that they pitched.
 
-- Background: Why do this in the first place?
-  - Engineering is a creative endeavor. Let's be intentional about fostering that creativity.
-  - Got some feedback from Slack communities on what makes a successful hackweek
-- Setting parameters
-  - What does success look like?
-    - Is it a prototype? Is it a mockup? Who sees the outcomes? Is it for R&D or for the whole company?
-    - Visualize the last day. How do you want it to go? What would a successful day look like?
-    - Who is involved? Who gets the say in things?
-  - What is the _why_ for hackweek?
-  - When is a good time for the business and the engineering team?
-- Logistics
-  - How do we come up with ideas? What is the criteria for a good idea?
-    - Suggesting them with enough time up front
-    - Themes to help focus and shape them
-    - Template for pitching ideas
-  - Start to get some momentum behind the week and ideas
-  - Notion doc with background, schedule, place for teams and pitches
-  - Slack channel with updates (and hype)
-- Project/Team selection
-  - Engineering driven both project pitch and team selection. Voted top three projects
-  - Matching process.
-    - Try to match people with top project
-    - Try to mix up the teams
-    - Leadership opportunity
-  - Announce the teams and projects the Friday beforehand
-- Week of
-  - Kickoff call:
-    - had a little surprise intro video
-    - Go over teams and projects
-  - EUI/coverage of production systems
-  - Watercooler room (since we are remote) - pesto
-  - Daily updates from team leads
-  - Last day:
-    - Demo session; call with mostly R&D and a few others. Recorded
-    - Each team has 20 min to present
-    - Ended the day early with a hangout
-- Outcomes
-  - Condensed version presented in all hands
-  - Survey, mostly positive responses
-  - 1 project was taken into roadmap and now in production
-  - part of another project was put into production
-- Reflections
-  - Overall it was a success!
-  - Cadence for doing this probably best to be once per year
+The goal of Hackweek was to exercise our creativity, work different team members, and explore new technologies, approaches, and ideas.
 
-# TLDR section
+It ended with a demo session where each team presented their prototype, spike, or learnings to the rest of the R&D org.
 
-# Goals
+# Announcing Hackweek
 
-- Engineering is a creative endeavor. It's important to be intentional about fostering creativity in our rhythms as a team.
-- We already have a backlog of important, interesting challenges to solve, so what is the hackweek for? Engineering driven projects.
+After putting together the outline and schedule, we announced the even in Slack and shared the details. This was followed by an optional 15 minute call to go over the event and answer questions.
 
-## Benchmarking
+# Pitch a Project
 
-Before setting out to run a hackweek (not only a first for me but a first for StructionSite), I wanted to get some feedback on how to run a successful one. After reading blog posts on the topic (linked at the bottom), I reached out to a few leadership communities on Slack.
+We asked for a few things in the pitch, starting with a high level description. What is the project? What problem does it solve? Why are you excited about it?
+
+Next, what will you demo at the end of the week? How does the scope fit into a week?
+
+Finally, what skills do you need on your team? Frontend, backend, ML/CV, mobile, design, data?
+
+Standardizing the pitch template helped align projects with the goals of the event. It also helped make sure everyone had enough information to rank the projects they wanted to work on.
+
+# Forming Teams
+
+Once the pitches were submitted, we sent out a form asking participants to rank the top three projects they wanted to work on.
+
+Using the project ranking, we formed teams by matching folks to their top project while keeping the team size balanced. We also wanted to take the opportunity to put people who don't normally work together on the same team.
+
+This worked out surprisingly well - almost everyone ended up on their top rated project and the rest were matched with their second choice. We ended up with four teams of four and one team of three.
+
+# Let's go!
+
+We started the week together on a kickoff call - reviewing teams, the structure of the week, and sharing some laughs. A daily update in slack from each team lead helped everyone stay in the loop and sparked inspiration from other teams' ideas and work. We ended the week with a call where each team took 20 minutes to present their work.
+
+The structure of the week was intentionally light to leave as much space as possible for focused project work. A few of us who were not participating covered production issues and bugs for the week, which were minimal.
+
+<!--TBD conclusion-->
