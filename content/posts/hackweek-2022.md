@@ -10,7 +10,7 @@ taxonomies:
 
 This year we had our first hackathon at StructionSite which we called Hackweek. It was a week-long event where folks from the engineering team paused the normal roadmap and worked on projects that they pitched.
 
-The goal of Hackweek was to exercise our creativity, work different team members, and explore new technologies, approaches, and ideas.
+The goal of Hackweek was to exercise our creativity, work with different team members, and explore new technologies, approaches, and ideas.
 
 It ended with a demo session where each team presented their prototype, spike, or learnings to the rest of the R&D org.
 
